@@ -1,0 +1,21 @@
+{
+  "name": "temperature-by-zip",
+  "version": "1.0.0",
+  "description": "get temperature assosiciated with zip code",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "temperature-by-zip"
+  },
+  "author": "aliyu bello",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "forecastio": "^2.0.0",
+    "zippity-do-dah": "0.0.3"
+  }
+}
